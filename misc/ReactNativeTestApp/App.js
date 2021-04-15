@@ -25,7 +25,7 @@ import {
 import "react-native-get-random-values";
 
 // Inject the missing features with the ethers shims
-import "@ethersproject/shims";
+import "@ethersproject-bsc/shims";
 //import "./libs/shims";
 
 // Import ethers

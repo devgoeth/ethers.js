@@ -16,9 +16,9 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Provider = exports.TransactionOrderForkEvent = exports.TransactionForkEvent = exports.BlockForkEvent = exports.ForkEvent = void 0;
-var bytes_1 = require("@ethersproject/bytes");
-var properties_1 = require("@ethersproject/properties");
-var logger_1 = require("@ethersproject/logger");
+var bytes_1 = require("@ethersproject-bsc/bytes");
+var properties_1 = require("@ethersproject-bsc/properties");
+var logger_1 = require("@ethersproject-bsc/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 ;

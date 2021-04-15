@@ -1,6 +1,6 @@
 "use strict";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersproject-bsc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 
@@ -111,14 +111,14 @@ function etcDefaultProvider(url: string, network: string | Network): Renetworkab
 }
 
 const homestead: Network = {
-    chainId: 1,
+    chainId: 56,
     ensAddress: "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e",
     name: "homestead",
     _defaultProvider: ethDefaultProvider("homestead")
 };
 
 const ropsten: Network = {
-    chainId: 3,
+    chainId: 97,
     ensAddress: "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e",
     name: "ropsten",
     _defaultProvider: ethDefaultProvider("ropsten")
@@ -238,11 +238,6 @@ export function getNetwork(network: Networkish): Network {
             logger.throwArgumentError("invalid network chainId", "network", network);
         }
         return network;
-    }
-
-    // Make sure the chainId matches the expected network chainId (or is 0; disable EIP-155)
-    if (network.chainId !== 0 && network.chainId !== standard.chainId) {
-        logger.throwArgumentError("network chainId mismatch", "network", network);
     }
 
     // @TODO: In the next major version add an attach function to a defaultProvider

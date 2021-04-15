@@ -8,11 +8,11 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-import { hexlify, hexValue, isHexString } from "@ethersproject/bytes";
-import { deepCopy, defineReadOnly } from "@ethersproject/properties";
-import { fetchJson } from "@ethersproject/web";
+import { hexlify, hexValue, isHexString } from "@ethersproject-bsc/bytes";
+import { deepCopy, defineReadOnly } from "@ethersproject-bsc/properties";
+import { fetchJson } from "@ethersproject-bsc/web";
 import { showThrottleMessage } from "./formatter";
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersproject-bsc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 import { BaseProvider } from "./base-provider";

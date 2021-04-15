@@ -1,6 +1,6 @@
 "use strict";
-import { hexlify } from "@ethersproject/bytes";
-import { toUtf8Bytes, toUtf8String } from "@ethersproject/strings";
+import { hexlify } from "@ethersproject-bsc/bytes";
+import { toUtf8Bytes, toUtf8String } from "@ethersproject-bsc/strings";
 import { logger, Wordlist } from "./wordlist";
 const data = [
     // 4-kana words

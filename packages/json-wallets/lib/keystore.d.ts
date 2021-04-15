@@ -1,7 +1,7 @@
-import { ExternallyOwnedAccount } from "@ethersproject/abstract-signer";
-import { Bytes, BytesLike } from "@ethersproject/bytes";
-import { Mnemonic } from "@ethersproject/hdnode";
-import { Description } from "@ethersproject/properties";
+import { ExternallyOwnedAccount } from "@ethersproject-bsc/abstract-signer";
+import { Bytes, BytesLike } from "@ethersproject-bsc/bytes";
+import { Mnemonic } from "@ethersproject-bsc/hdnode";
+import { Description } from "@ethersproject-bsc/properties";
 export interface _KeystoreAccount {
     address: string;
     privateKey: string;

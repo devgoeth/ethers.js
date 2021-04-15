@@ -1,8 +1,8 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/bytes": "^5.1.0",
-    "@ethersproject/logger": "^5.1.0"
+    "@ethersproject-bsc/bytes": "^5.1.0",
+    "@ethersproject-bsc/logger": "^5.1.0"
   },
   "description": "Recursive-Length Prefix (RLP) coder.",
   "ethereum": "donations.ethers.eth",
@@ -24,7 +24,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/rlp",
+  "name": "@ethersproject-bsc/rlp",
   "publishConfig": {
     "access": "public"
   },

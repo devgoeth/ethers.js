@@ -3,22 +3,22 @@
 import {
     Block, BlockTag, BlockWithTransactions, EventType, Filter, FilterByBlockHash, ForkEvent,
     Listener, Log, Provider, TransactionReceipt, TransactionRequest, TransactionResponse
-} from "@ethersproject/abstract-provider";
-import { Base58 } from "@ethersproject/basex";
-import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
-import { arrayify, concat, hexConcat, hexDataLength, hexDataSlice, hexlify, hexValue, hexZeroPad, isHexString } from "@ethersproject/bytes";
-import { HashZero } from "@ethersproject/constants";
-import { namehash } from "@ethersproject/hash";
-import { getNetwork, Network, Networkish } from "@ethersproject/networks";
-import { Deferrable, defineReadOnly, getStatic, resolveProperties } from "@ethersproject/properties";
-import { Transaction } from "@ethersproject/transactions";
-import { sha256 } from "@ethersproject/sha2";
-import { toUtf8Bytes, toUtf8String } from "@ethersproject/strings";
-import { poll } from "@ethersproject/web";
+} from "@ethersproject-bsc/abstract-provider";
+import { Base58 } from "@ethersproject-bsc/basex";
+import { BigNumber, BigNumberish } from "@ethersproject-bsc/bignumber";
+import { arrayify, concat, hexConcat, hexDataLength, hexDataSlice, hexlify, hexValue, hexZeroPad, isHexString } from "@ethersproject-bsc/bytes";
+import { HashZero } from "@ethersproject-bsc/constants";
+import { namehash } from "@ethersproject-bsc/hash";
+import { getNetwork, Network, Networkish } from "@ethersproject-bsc/networks";
+import { Deferrable, defineReadOnly, getStatic, resolveProperties } from "@ethersproject-bsc/properties";
+import { Transaction } from "@ethersproject-bsc/transactions";
+import { sha256 } from "@ethersproject-bsc/sha2";
+import { toUtf8Bytes, toUtf8String } from "@ethersproject-bsc/strings";
+import { poll } from "@ethersproject-bsc/web";
 
 import bech32 from "bech32";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersproject-bsc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

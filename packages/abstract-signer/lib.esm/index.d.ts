@@ -1,7 +1,7 @@
-import { BlockTag, Provider, TransactionRequest, TransactionResponse } from "@ethersproject/abstract-provider";
-import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
-import { Bytes, BytesLike } from "@ethersproject/bytes";
-import { Deferrable } from "@ethersproject/properties";
+import { BlockTag, Provider, TransactionRequest, TransactionResponse } from "@ethersproject-bsc/abstract-provider";
+import { BigNumber, BigNumberish } from "@ethersproject-bsc/bignumber";
+import { Bytes, BytesLike } from "@ethersproject-bsc/bytes";
+import { Deferrable } from "@ethersproject-bsc/properties";
 export interface TypedDataDomain {
     name?: string;
     version?: string;

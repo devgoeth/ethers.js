@@ -1,6 +1,6 @@
-import { ExternallyOwnedAccount } from "@ethersproject/abstract-signer";
-import { Bytes } from "@ethersproject/bytes";
-import { Description } from "@ethersproject/properties";
+import { ExternallyOwnedAccount } from "@ethersproject-bsc/abstract-signer";
+import { Bytes } from "@ethersproject-bsc/bytes";
+import { Description } from "@ethersproject-bsc/properties";
 export interface _CrowdsaleAccount {
     address: string;
     privateKey: string;

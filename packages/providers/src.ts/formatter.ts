@@ -1,14 +1,14 @@
 "use strict";
 
-import { Block, TransactionReceipt, TransactionResponse } from "@ethersproject/abstract-provider";
-import { getAddress, getContractAddress } from "@ethersproject/address";
-import { BigNumber } from "@ethersproject/bignumber";
-import { hexDataLength, hexDataSlice, hexValue, hexZeroPad, isHexString } from "@ethersproject/bytes";
-import { AddressZero } from "@ethersproject/constants";
-import { shallowCopy } from "@ethersproject/properties";
-import { AccessList, accessListify, parse as parseTransaction } from "@ethersproject/transactions";
+import { Block, TransactionReceipt, TransactionResponse } from "@ethersproject-bsc/abstract-provider";
+import { getAddress, getContractAddress } from "@ethersproject-bsc/address";
+import { BigNumber } from "@ethersproject-bsc/bignumber";
+import { hexDataLength, hexDataSlice, hexValue, hexZeroPad, isHexString } from "@ethersproject-bsc/bytes";
+import { AddressZero } from "@ethersproject-bsc/constants";
+import { shallowCopy } from "@ethersproject-bsc/properties";
+import { AccessList, accessListify, parse as parseTransaction } from "@ethersproject-bsc/transactions";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersproject-bsc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

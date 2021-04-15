@@ -1,5 +1,5 @@
-import { Provider } from "@ethersproject/abstract-provider";
-import { Network } from "@ethersproject/networks";
+import { Provider } from "@ethersproject-bsc/abstract-provider";
+import { Network } from "@ethersproject-bsc/networks";
 import { BaseProvider } from "./base-provider";
 export interface FallbackProviderConfig {
     provider: Provider;

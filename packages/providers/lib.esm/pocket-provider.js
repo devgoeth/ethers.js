@@ -1,6 +1,6 @@
 "use strict";
-import { getStatic } from "@ethersproject/properties";
-import { Logger } from "@ethersproject/logger";
+import { getStatic } from "@ethersproject-bsc/properties";
+import { Logger } from "@ethersproject-bsc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";

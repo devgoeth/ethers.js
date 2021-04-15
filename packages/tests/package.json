@@ -1,8 +1,8 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/cli": "^5.1.0",
-    "@ethersproject/testcases": "^5.1.0",
+    "@ethersproject-bsc/cli": "^5.1.0",
+    "@ethersproject-bsc/testcases": "^5.1.0",
     "@types/mocha": "^5.2.0",
     "ethers": "^5.1.0"
   },
@@ -25,7 +25,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/tests",
+  "name": "@ethersproject-bsc/tests",
   "publishConfig": {
     "access": "public"
   },

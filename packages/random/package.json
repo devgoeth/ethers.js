@@ -7,8 +7,8 @@
     "./lib/random": "./lib/browser-random.js"
   },
   "dependencies": {
-    "@ethersproject/bytes": "^5.1.0",
-    "@ethersproject/logger": "^5.1.0"
+    "@ethersproject-bsc/bytes": "^5.1.0",
+    "@ethersproject-bsc/logger": "^5.1.0"
   },
   "description": "Random utility functions for ethers.",
   "ethereum": "donations.ethers.eth",
@@ -30,7 +30,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/random",
+  "name": "@ethersproject-bsc/random",
   "publishConfig": {
     "access": "public"
   },

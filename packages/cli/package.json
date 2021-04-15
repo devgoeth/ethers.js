@@ -9,8 +9,8 @@
   "dependencies": {
     "@babel/parser": "7.8.4",
     "@babel/types": "7.8.3",
-    "@ethersproject/asm": "^5.1.0",
-    "@ethersproject/basex": "^5.1.0",
+    "@ethersproject-bsc/asm": "^5.1.0",
+    "@ethersproject-bsc/basex": "^5.1.0",
     "ethers": "^5.1.0",
     "scrypt-js": "3.0.1",
     "solc": "0.7.1"
@@ -35,7 +35,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/cli",
+  "name": "@ethersproject-bsc/cli",
   "publishConfig": {
     "access": "public"
   },

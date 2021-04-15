@@ -1,14 +1,14 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/abstract-signer": "^5.1.0",
-    "@ethersproject/address": "^5.1.0",
-    "@ethersproject/bignumber": "^5.1.0",
-    "@ethersproject/bytes": "^5.1.0",
-    "@ethersproject/keccak256": "^5.1.0",
-    "@ethersproject/logger": "^5.1.0",
-    "@ethersproject/properties": "^5.1.0",
-    "@ethersproject/strings": "^5.1.0"
+    "@ethersproject-bsc/abstract-signer": "^5.1.0",
+    "@ethersproject-bsc/address": "^5.1.0",
+    "@ethersproject-bsc/bignumber": "^5.1.0",
+    "@ethersproject-bsc/bytes": "^5.1.0",
+    "@ethersproject-bsc/keccak256": "^5.1.0",
+    "@ethersproject-bsc/logger": "^5.1.0",
+    "@ethersproject-bsc/properties": "^5.1.0",
+    "@ethersproject-bsc/strings": "^5.1.0"
   },
   "description": "Hash utility functions for Ethereum.",
   "ethereum": "donations.ethers.eth",
@@ -29,7 +29,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/hash",
+  "name": "@ethersproject-bsc/hash",
   "publishConfig": {
     "access": "public"
   },

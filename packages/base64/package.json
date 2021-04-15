@@ -7,7 +7,7 @@
     "./lib/base64": "./lib/browser-base64.js"
   },
   "dependencies": {
-    "@ethersproject/bytes": "^5.1.0"
+    "@ethersproject-bsc/bytes": "^5.1.0"
   },
   "description": "Base64 coder.",
   "ethereum": "donations.ethers.eth",
@@ -28,7 +28,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/base64",
+  "name": "@ethersproject-bsc/base64",
   "publishConfig": {
     "access": "public"
   },

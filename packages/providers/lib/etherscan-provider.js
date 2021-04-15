@@ -52,11 +52,11 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.EtherscanProvider = void 0;
-var bytes_1 = require("@ethersproject/bytes");
-var properties_1 = require("@ethersproject/properties");
-var web_1 = require("@ethersproject/web");
+var bytes_1 = require("@ethersproject-bsc/bytes");
+var properties_1 = require("@ethersproject-bsc/properties");
+var web_1 = require("@ethersproject-bsc/web");
 var formatter_1 = require("./formatter");
-var logger_1 = require("@ethersproject/logger");
+var logger_1 = require("@ethersproject-bsc/logger");
 var _version_1 = require("./_version");
 var logger = new logger_1.Logger(_version_1.version);
 var base_provider_1 = require("./base-provider");

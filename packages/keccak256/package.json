@@ -1,7 +1,7 @@
 {
   "author": "Richard Moore <me@ricmoo.com>",
   "dependencies": {
-    "@ethersproject/bytes": "^5.1.0",
+    "@ethersproject-bsc/bytes": "^5.1.0",
     "js-sha3": "0.5.7"
   },
   "description": "The keccak256 hash function for ethers.",
@@ -23,7 +23,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/keccak256",
+  "name": "@ethersproject-bsc/keccak256",
   "publishConfig": {
     "access": "public"
   },

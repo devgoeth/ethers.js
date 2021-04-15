@@ -32,7 +32,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/hardware-wallets",
+  "name": "@ethersproject-bsc/hardware-wallets",
   "optionalDependencies": {
     "@ledgerhq/hw-transport-node-hid": "5.26.0"
   },

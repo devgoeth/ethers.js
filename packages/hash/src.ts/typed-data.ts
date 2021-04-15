@@ -1,11 +1,11 @@
-import { TypedDataDomain, TypedDataField } from "@ethersproject/abstract-signer";
-import { getAddress } from "@ethersproject/address";
-import { BigNumber, BigNumberish } from "@ethersproject/bignumber";
-import { arrayify, BytesLike, hexConcat, hexlify, hexZeroPad, isHexString } from "@ethersproject/bytes";
-import { keccak256 } from "@ethersproject/keccak256";
-import { deepCopy, defineReadOnly, shallowCopy } from "@ethersproject/properties";
+import { TypedDataDomain, TypedDataField } from "@ethersproject-bsc/abstract-signer";
+import { getAddress } from "@ethersproject-bsc/address";
+import { BigNumber, BigNumberish } from "@ethersproject-bsc/bignumber";
+import { arrayify, BytesLike, hexConcat, hexlify, hexZeroPad, isHexString } from "@ethersproject-bsc/bytes";
+import { keccak256 } from "@ethersproject-bsc/keccak256";
+import { deepCopy, defineReadOnly, shallowCopy } from "@ethersproject-bsc/properties";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersproject-bsc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

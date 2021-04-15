@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Reader = exports.Writer = exports.Coder = exports.checkResultErrors = void 0;
-var bytes_1 = require("@ethersproject/bytes");
-var bignumber_1 = require("@ethersproject/bignumber");
-var properties_1 = require("@ethersproject/properties");
-var logger_1 = require("@ethersproject/logger");
+var bytes_1 = require("@ethersproject-bsc/bytes");
+var bignumber_1 = require("@ethersproject-bsc/bignumber");
+var properties_1 = require("@ethersproject-bsc/properties");
+var logger_1 = require("@ethersproject-bsc/logger");
 var _version_1 = require("../_version");
 var logger = new logger_1.Logger(_version_1.version);
 function checkResultErrors(result) {

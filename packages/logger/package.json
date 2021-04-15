@@ -20,7 +20,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/logger",
+  "name": "@ethersproject-bsc/logger",
   "publishConfig": {
     "access": "public"
   },

@@ -1,6 +1,6 @@
 {
   "_devDependencies": {
-    "@ethersproject/cli": "^5.0.0",
+    "@ethersproject-bsc/cli": "^5.0.0",
     "@types/bip39": "2.4.1",
     "@types/bitcoinjs-lib": "3.3.2",
     "bip39": "2.5.0",
@@ -16,10 +16,10 @@
     "./lib/disk-utils": "./lib/browser-disk-utils.js"
   },
   "dependencies": {
-    "@ethersproject/bignumber": "^5.1.0",
-    "@ethersproject/bytes": "^5.1.0",
-    "@ethersproject/keccak256": "^5.1.0",
-    "@ethersproject/strings": "^5.1.0",
+    "@ethersproject-bsc/bignumber": "^5.1.0",
+    "@ethersproject-bsc/bytes": "^5.1.0",
+    "@ethersproject-bsc/keccak256": "^5.1.0",
+    "@ethersproject-bsc/strings": "^5.1.0",
     "ethers": "^5.1.0",
     "tiny-inflate": "1.0.3"
   },
@@ -42,7 +42,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/testcases",
+  "name": "@ethersproject-bsc/testcases",
   "publishConfig": {
     "access": "public"
   },

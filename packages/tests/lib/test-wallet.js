@@ -60,7 +60,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 var assert_1 = __importDefault(require("assert"));
 var ethers_1 = require("ethers");
-var testcases_1 = require("@ethersproject/testcases");
+var testcases_1 = require("@ethersproject-bsc/testcases");
 var utils = __importStar(require("./utils"));
 describe('Test JSON Wallets', function () {
     var tests = testcases_1.loadTests('wallets');

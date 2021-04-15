@@ -99,7 +99,7 @@ function _compile(_solc, source, options) {
     return result;
 }
 // Creates a require which will first search from the current location,
-// and for solc will fallback onto the version included in @ethersproject/cli
+// and for solc will fallback onto the version included in @ethersproject-bsc/cli
 function customRequire(path) {
     // Node 8.x does not support createRequireFromPath
     var createRequire = (module_1.default.createRequireFromPath || (function (path) {

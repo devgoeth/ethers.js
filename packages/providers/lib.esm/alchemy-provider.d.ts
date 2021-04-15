@@ -1,5 +1,5 @@
-import { Network, Networkish } from "@ethersproject/networks";
-import { ConnectionInfo } from "@ethersproject/web";
+import { Network, Networkish } from "@ethersproject-bsc/networks";
+import { ConnectionInfo } from "@ethersproject-bsc/web";
 import { CommunityResourcable } from "./formatter";
 import { WebSocketProvider } from "./websocket-provider";
 import { UrlJsonRpcProvider } from "./url-json-rpc-provider";

@@ -2,18 +2,18 @@
 
 // See: https://github.com/ethereum/wiki/wiki/JSON-RPC
 
-import { Provider, TransactionRequest, TransactionResponse } from "@ethersproject/abstract-provider";
-import { Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@ethersproject/abstract-signer";
-import { BigNumber } from "@ethersproject/bignumber";
-import { Bytes, hexlify, hexValue, isHexString } from "@ethersproject/bytes";
-import { _TypedDataEncoder } from "@ethersproject/hash";
-import { Network, Networkish } from "@ethersproject/networks";
-import { checkProperties, deepCopy, Deferrable, defineReadOnly, getStatic, resolveProperties, shallowCopy } from "@ethersproject/properties";
-import { toUtf8Bytes } from "@ethersproject/strings";
-import { AccessList, accessListify } from "@ethersproject/transactions";
-import { ConnectionInfo, fetchJson, poll } from "@ethersproject/web";
+import { Provider, TransactionRequest, TransactionResponse } from "@ethersproject-bsc/abstract-provider";
+import { Signer, TypedDataDomain, TypedDataField, TypedDataSigner } from "@ethersproject-bsc/abstract-signer";
+import { BigNumber } from "@ethersproject-bsc/bignumber";
+import { Bytes, hexlify, hexValue, isHexString } from "@ethersproject-bsc/bytes";
+import { _TypedDataEncoder } from "@ethersproject-bsc/hash";
+import { Network, Networkish } from "@ethersproject-bsc/networks";
+import { checkProperties, deepCopy, Deferrable, defineReadOnly, getStatic, resolveProperties, shallowCopy } from "@ethersproject-bsc/properties";
+import { toUtf8Bytes } from "@ethersproject-bsc/strings";
+import { AccessList, accessListify } from "@ethersproject-bsc/transactions";
+import { ConnectionInfo, fetchJson, poll } from "@ethersproject-bsc/web";
 
-import { Logger } from "@ethersproject/logger";
+import { Logger } from "@ethersproject-bsc/logger";
 import { version } from "./_version";
 const logger = new Logger(version);
 

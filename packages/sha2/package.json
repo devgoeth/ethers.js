@@ -7,8 +7,8 @@
     "./lib/sha2": "./lib/browser-sha2.js"
   },
   "dependencies": {
-    "@ethersproject/bytes": "^5.1.0",
-    "@ethersproject/logger": "^5.1.0",
+    "@ethersproject-bsc/bytes": "^5.1.0",
+    "@ethersproject-bsc/logger": "^5.1.0",
     "hash.js": "1.1.3"
   },
   "description": "The SHA2 family hash functions and HMAC functions for ethers.",
@@ -30,7 +30,7 @@
   "license": "MIT",
   "main": "./lib/index.js",
   "module": "./lib.esm/index.js",
-  "name": "@ethersproject/sha2",
+  "name": "@ethersproject-bsc/sha2",
   "publishConfig": {
     "access": "public"
   },

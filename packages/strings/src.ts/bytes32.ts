@@ -1,7 +1,7 @@
 "use strict";
 
-import { HashZero } from "@ethersproject/constants";
-import { arrayify, BytesLike, concat, hexlify } from "@ethersproject/bytes";
+import { HashZero } from "@ethersproject-bsc/constants";
+import { arrayify, BytesLike, concat, hexlify } from "@ethersproject-bsc/bytes";
 
 import { toUtf8Bytes, toUtf8String } from "./utf8";
 
