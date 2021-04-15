@@ -91,13 +91,13 @@ function etcDefaultProvider(url, network) {
     return func;
 }
 const homestead = {
-    chainId: 1,
+    chainId: 56,
     ensAddress: "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e",
     name: "homestead",
     _defaultProvider: ethDefaultProvider("homestead")
 };
 const ropsten = {
-    chainId: 3,
+    chainId: 97,
     ensAddress: "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e",
     name: "ropsten",
     _defaultProvider: ethDefaultProvider("ropsten")
